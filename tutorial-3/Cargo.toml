@@ -1,5 +1,5 @@
 [package]
-name = "tutorial-1"
+name = "tutorial-3"
 version = "0.1.0"
 authors = ["Víctor Manuel Jáquez Leal <vjaquez@igalia.com>"]
 edition = "2018"
