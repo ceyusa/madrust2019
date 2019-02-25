@@ -1,0 +1,10 @@
+[package]
+name = "tutorial-6"
+version = "0.1.0"
+authors = ["Víctor Manuel Jáquez Leal <vjaquez@igalia.com>"]
+edition = "2018"
+
+[dependencies]
+glib = "0.7"
+gstreamer = "0.13"
+failure = "0.1"
