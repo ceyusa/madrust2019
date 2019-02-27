@@ -1,0 +1,15 @@
+[package]
+name = "tutorial-7"
+version = "0.1.0"
+authors = ["Víctor Manuel Jáquez Leal <vjaquez@igalia.com>"]
+edition = "2018"
+
+[dependencies]
+glib = { version = "0.7", features = ["subclassing"] }
+gstreamer = { version = "0.13", features = ["subclassing"] }
+gstreamer-video = "0.13"
+
+[lib]
+name = "servosink"
+crate-type = ["cdylib"]
+path = "src/lib.rs"
